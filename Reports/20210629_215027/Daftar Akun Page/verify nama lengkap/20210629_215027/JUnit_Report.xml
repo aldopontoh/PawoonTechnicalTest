@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="verify nama lengkap" time="155.05" tests="4" failures="0" errors="0">
+   <testsuite name="verify nama lengkap" tests="4" failures="0" errors="0" time="155.05" skipped="0" timestamp="2021-06-29 21:50:36" hostname="Aldo - DESKTOP-PQ1TCVR" id="Test Suites/Daftar Akun Page/verify nama lengkap">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aldo\\git\\PawoonTechnicalTest\\Reports\\20210629_215027\\Daftar Akun Page\\verify nama lengkap\\20210629_215027"/>
+         <property name="logFiles" value="C:\\Users\\Aldo\\git\\PawoonTechnicalTest\\Reports\\20210629_215027\\Daftar Akun Page\\verify nama lengkap\\20210629_215027\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aldo - DESKTOP-PQ1TCVR"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.124"/>
+         <property name="hostAddress" value="192.168.100.48"/>
+         <property name="sessionId" value="580ce1c82bcd8cdd561b0b19c00b775a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Daftar Akun Page/Verify Nama Lengkap character allowed" time="44.585" classname="Test Cases/Daftar Akun Page/Verify Nama Lengkap character allowed" status="PASSED">
+         <system-out><![CDATA[2021-06-29 21:50:37 - [TEST_CASE][PASSED] - Test Cases/Daftar Akun Page/Verify Nama Lengkap character allowed: Test Cases/Daftar Akun Page/Verify Nama Lengkap character allowed
+
+2021-06-29 21:50:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-06-29 21:50:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-29 21:50:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-29 21:50:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-06-29 21:50:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-29 21:50:50 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-29 21:50:50 - [TEST_STEP][PASSED] - navigateToUrl("https://dashboard.pawoon.com/login"): Navigate to 'https://dashboard.pawoon.com/login' successfully
+
+2021-06-29 21:50:58 - [MESSAGE][PASSED] - Navigate to 'https://dashboard.pawoon.com/login' successfully
+
+2021-06-29 21:50:58 - [TEST_STEP][PASSED] - click(findTestObject("Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang")): Object: 'Object Repository/Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang' is clicked on
+
+2021-06-29 21:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang' is clicked on
+
+2021-06-29 21:51:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_Namalengkap"), "Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"): Keys 'Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_Namalengkap'
+
+2021-06-29 21:51:07 - [MESSAGE][PASSED] - Keys 'Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_Namalengkap'
+
+2021-06-29 21:51:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_email"), "bangdado09@gmail.com"): Keys 'bangdado09@gmail.com' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_email'
+
+2021-06-29 21:51:08 - [MESSAGE][PASSED] - Keys 'bangdado09@gmail.com' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_email'
+
+2021-06-29 21:51:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_phone_number"), "081211336018"): Keys '081211336018' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_phone_number'
+
+2021-06-29 21:51:09 - [MESSAGE][PASSED] - Keys '081211336018' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_phone_number'
+
+2021-06-29 21:51:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_password"), "123456"): Keys '123456' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_password'
+
+2021-06-29 21:51:10 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_password'
+
+2021-06-29 21:51:10 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Pawoon/Page_Pawoon POS/checkbox_agreement"), 2): Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is not checked
+
+2021-06-29 21:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is not checked
+
+2021-06-29 21:51:11 - [TEST_STEP][PASSED] - check(findTestObject("Pawoon/Page_Pawoon POS/checkbox_agreement")): Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is checked
+
+2021-06-29 21:51:14 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is checked
+
+2021-06-29 21:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1")): Object: 'Object Repository/Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1' is clicked on
+
+2021-06-29 21:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1' is clicked on
+
+2021-06-29 21:51:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis"), 0): Object 'Object Repository/Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis' is present
+
+2021-06-29 21:51:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-06-29 21:51:18 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis' is present
+
+2021-06-29 21:51:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-29 21:51:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-29 21:51:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-29 21:51:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Daftar Akun Page/Verify Nama Lengkap empty input" time="32.766" classname="Test Cases/Daftar Akun Page/Verify Nama Lengkap empty input" status="PASSED">
+         <system-out><![CDATA[2021-06-29 21:51:22 - [TEST_CASE][PASSED] - Test Cases/Daftar Akun Page/Verify Nama Lengkap empty input: Test Cases/Daftar Akun Page/Verify Nama Lengkap empty input
+
+2021-06-29 21:51:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-06-29 21:51:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-29 21:51:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-29 21:51:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-06-29 21:51:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-29 21:51:32 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-29 21:51:32 - [TEST_STEP][PASSED] - navigateToUrl("https://dashboard.pawoon.com/login"): Navigate to 'https://dashboard.pawoon.com/login' successfully
+
+2021-06-29 21:51:39 - [MESSAGE][PASSED] - Navigate to 'https://dashboard.pawoon.com/login' successfully
+
+2021-06-29 21:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang")): Object: 'Object Repository/Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang' is clicked on
+
+2021-06-29 21:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang' is clicked on
+
+2021-06-29 21:51:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_Namalengkap"), "Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"): Keys 'Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_Namalengkap'
+
+2021-06-29 21:51:43 - [MESSAGE][PASSED] - Keys 'Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_Namalengkap'
+
+2021-06-29 21:51:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_email"), "bangdado09@gmail.com"): Keys 'bangdado09@gmail.com' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_email'
+
+2021-06-29 21:51:45 - [MESSAGE][PASSED] - Keys 'bangdado09@gmail.com' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_email'
+
+2021-06-29 21:51:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_phone_number"), "081211336018"): Keys '081211336018' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_phone_number'
+
+2021-06-29 21:51:46 - [MESSAGE][PASSED] - Keys '081211336018' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_phone_number'
+
+2021-06-29 21:51:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_password"), "123456"): Keys '123456' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_password'
+
+2021-06-29 21:51:46 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_password'
+
+2021-06-29 21:51:46 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Pawoon/Page_Pawoon POS/checkbox_agreement"), 2): Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is not checked
+
+2021-06-29 21:51:47 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is not checked
+
+2021-06-29 21:51:47 - [TEST_STEP][PASSED] - check(findTestObject("Pawoon/Page_Pawoon POS/checkbox_agreement")): Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is checked
+
+2021-06-29 21:51:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is checked
+
+2021-06-29 21:51:49 - [TEST_STEP][PASSED] - click(findTestObject("Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1")): Object: 'Object Repository/Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1' is clicked on
+
+2021-06-29 21:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1' is clicked on
+
+2021-06-29 21:51:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis"), 0): Object 'Object Repository/Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis' is present
+
+2021-06-29 21:51:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-06-29 21:51:51 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis' is present
+
+2021-06-29 21:51:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-29 21:51:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-29 21:51:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-29 21:51:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Daftar Akun Page/Verify Nama Lengkap maximum character" time="29.928" classname="Test Cases/Daftar Akun Page/Verify Nama Lengkap maximum character" status="PASSED">
+         <system-out><![CDATA[2021-06-29 21:51:55 - [TEST_CASE][PASSED] - Test Cases/Daftar Akun Page/Verify Nama Lengkap maximum character: Test Cases/Daftar Akun Page/Verify Nama Lengkap maximum character
+
+2021-06-29 21:51:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-06-29 21:51:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-29 21:51:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-29 21:52:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-06-29 21:52:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-29 21:52:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-29 21:52:02 - [TEST_STEP][PASSED] - navigateToUrl("https://dashboard.pawoon.com/login"): Navigate to 'https://dashboard.pawoon.com/login' successfully
+
+2021-06-29 21:52:08 - [MESSAGE][PASSED] - Navigate to 'https://dashboard.pawoon.com/login' successfully
+
+2021-06-29 21:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang")): Object: 'Object Repository/Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang' is clicked on
+
+2021-06-29 21:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang' is clicked on
+
+2021-06-29 21:52:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_Namalengkap"), "Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"): Keys 'Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_Namalengkap'
+
+2021-06-29 21:52:13 - [MESSAGE][PASSED] - Keys 'Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_Namalengkap'
+
+2021-06-29 21:52:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_email"), "bangdado09@gmail.com"): Keys 'bangdado09@gmail.com' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_email'
+
+2021-06-29 21:52:14 - [MESSAGE][PASSED] - Keys 'bangdado09@gmail.com' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_email'
+
+2021-06-29 21:52:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_phone_number"), "081211336018"): Keys '081211336018' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_phone_number'
+
+2021-06-29 21:52:15 - [MESSAGE][PASSED] - Keys '081211336018' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_phone_number'
+
+2021-06-29 21:52:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_password"), "123456"): Keys '123456' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_password'
+
+2021-06-29 21:52:16 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_password'
+
+2021-06-29 21:52:16 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Pawoon/Page_Pawoon POS/checkbox_agreement"), 2): Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is not checked
+
+2021-06-29 21:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is not checked
+
+2021-06-29 21:52:16 - [TEST_STEP][PASSED] - check(findTestObject("Pawoon/Page_Pawoon POS/checkbox_agreement")): Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is checked
+
+2021-06-29 21:52:18 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is checked
+
+2021-06-29 21:52:18 - [TEST_STEP][PASSED] - click(findTestObject("Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1")): Object: 'Object Repository/Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1' is clicked on
+
+2021-06-29 21:52:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1' is clicked on
+
+2021-06-29 21:52:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis"), 0): Object 'Object Repository/Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis' is present
+
+2021-06-29 21:52:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-06-29 21:52:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis' is present
+
+2021-06-29 21:52:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-29 21:52:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-29 21:52:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-29 21:52:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Daftar Akun Page/Verify Nama Lengkap minimum character" time="29.177" classname="Test Cases/Daftar Akun Page/Verify Nama Lengkap minimum character" status="PASSED">
+         <system-out><![CDATA[2021-06-29 21:52:25 - [TEST_CASE][PASSED] - Test Cases/Daftar Akun Page/Verify Nama Lengkap minimum character: Test Cases/Daftar Akun Page/Verify Nama Lengkap minimum character
+
+2021-06-29 21:52:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-06-29 21:52:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-29 21:52:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-29 21:52:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-06-29 21:52:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-29 21:52:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-29 21:52:33 - [TEST_STEP][PASSED] - navigateToUrl("https://dashboard.pawoon.com/login"): Navigate to 'https://dashboard.pawoon.com/login' successfully
+
+2021-06-29 21:52:38 - [MESSAGE][PASSED] - Navigate to 'https://dashboard.pawoon.com/login' successfully
+
+2021-06-29 21:52:38 - [TEST_STEP][PASSED] - click(findTestObject("Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang")): Object: 'Object Repository/Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang' is clicked on
+
+2021-06-29 21:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang' is clicked on
+
+2021-06-29 21:52:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_Namalengkap"), "Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"): Keys 'Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_Namalengkap'
+
+2021-06-29 21:52:43 - [MESSAGE][PASSED] - Keys 'Renaldo Pontohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_Namalengkap'
+
+2021-06-29 21:52:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_email"), "bangdado09@gmail.com"): Keys 'bangdado09@gmail.com' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_email'
+
+2021-06-29 21:52:44 - [MESSAGE][PASSED] - Keys 'bangdado09@gmail.com' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_email'
+
+2021-06-29 21:52:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_phone_number"), "081211336018"): Keys '081211336018' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_phone_number'
+
+2021-06-29 21:52:45 - [MESSAGE][PASSED] - Keys '081211336018' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_phone_number'
+
+2021-06-29 21:52:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pawoon/Page_Pawoon POS/input_password"), "123456"): Keys '123456' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_password'
+
+2021-06-29 21:52:46 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Pawoon/Page_Pawoon POS/input_password'
+
+2021-06-29 21:52:46 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Pawoon/Page_Pawoon POS/checkbox_agreement"), 2): Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is not checked
+
+2021-06-29 21:52:47 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is not checked
+
+2021-06-29 21:52:47 - [TEST_STEP][PASSED] - check(findTestObject("Pawoon/Page_Pawoon POS/checkbox_agreement")): Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is checked
+
+2021-06-29 21:52:48 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/Page_Pawoon POS/checkbox_agreement' is checked
+
+2021-06-29 21:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1")): Object: 'Object Repository/Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1' is clicked on
+
+2021-06-29 21:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1' is clicked on
+
+2021-06-29 21:52:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis"), 0): Object 'Object Repository/Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis' is present
+
+2021-06-29 21:52:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-06-29 21:52:50 - [MESSAGE][PASSED] - Object 'Object Repository/Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis' is present
+
+2021-06-29 21:52:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-29 21:52:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-29 21:52:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-29 21:52:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-29 21:50:36 - [TEST_SUITE][PASSED] - verify nama lengkap: Test Cases/Daftar Akun Page/Verify Nama Lengkap minimum character]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

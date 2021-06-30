@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check completeness of register page (Daftar Akun)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5772d05-e457-4418-b00c-da58afa3d806</testCaseGuid>
+</TestCaseEntity>

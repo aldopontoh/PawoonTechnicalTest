@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+verify email,Chrome 91.0.4472.124,,,2021-06-29 22:16:32,2021-06-29 22:19:15,2m - 43.130s,FAILED
+,,,,,,,
+Test Cases/Daftar Akun Page/Email/Verify Email character allowed,Chrome 91.0.4472.124,,,2021-06-29 22:16:33,2021-06-29 22:17:26,53.085s,FAILED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-06-29 22:16:36,2021-06-29 22:17:04,28.078s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,2021-06-29 22:17:04,2021-06-29 22:17:04,0.539s,PASSED
+"navigateToUrl(""https://dashboard.pawoon.com/login"")",Chrome 91.0.4472.124,,,2021-06-29 22:17:04,2021-06-29 22:17:13,8.408s,PASSED
+"click(findTestObject(""Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang""))",Chrome 91.0.4472.124,,,2021-06-29 22:17:13,2021-06-29 22:17:19,6.241s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_Namalengkap""), ""Renaldo Pontoh"")",Chrome 91.0.4472.124,,,2021-06-29 22:17:19,2021-06-29 22:17:23,4.537s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_email""), ""bangdado09@gmail.com1234567890!@##$%^^&*()🙂😊😀😁"")",Chrome 91.0.4472.124,,,2021-06-29 22:17:23,2021-06-29 22:17:26,3.150s,FAILED
+,,,,,,,
+Test Cases/Daftar Akun Page/Email/Verify Email empty input,Chrome 91.0.4472.124,,,2021-06-29 22:17:27,2021-06-29 22:18:16,49.800s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-06-29 22:17:28,2021-06-29 22:17:47,19.008s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,2021-06-29 22:17:47,2021-06-29 22:17:47,0.466s,PASSED
+"navigateToUrl(""https://dashboard.pawoon.com/login"")",Chrome 91.0.4472.124,,,2021-06-29 22:17:47,2021-06-29 22:17:56,8.765s,PASSED
+"click(findTestObject(""Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang""))",Chrome 91.0.4472.124,,,2021-06-29 22:17:56,2021-06-29 22:18:02,5.457s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_Namalengkap""), ""Renaldo Pontoh"")",Chrome 91.0.4472.124,,,2021-06-29 22:18:02,2021-06-29 22:18:05,2.816s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_email""), """")",Chrome 91.0.4472.124,,,2021-06-29 22:18:05,2021-06-29 22:18:05,0.654s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_phone_number""), ""081211336018"")",Chrome 91.0.4472.124,,,2021-06-29 22:18:05,2021-06-29 22:18:06,0.812s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_password""), ""123456"")",Chrome 91.0.4472.124,,,2021-06-29 22:18:06,2021-06-29 22:18:07,0.993s,PASSED
+"verifyElementNotChecked(findTestObject(""Pawoon/Page_Pawoon POS/checkbox_agreement""), 2)",Chrome 91.0.4472.124,,,2021-06-29 22:18:07,2021-06-29 22:18:08,0.737s,PASSED
+"check(findTestObject(""Pawoon/Page_Pawoon POS/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-06-29 22:18:08,2021-06-29 22:18:10,2.294s,PASSED
+"click(findTestObject(""Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1""))",Chrome 91.0.4472.124,,,2021-06-29 22:18:10,2021-06-29 22:18:11,0.719s,PASSED
+"verifyElementPresent(findTestObject(""Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis""), 0)",Chrome 91.0.4472.124,,,2021-06-29 22:18:11,2021-06-29 22:18:11,0.635s,PASSED
+delay(2),Chrome 91.0.4472.124,,,2021-06-29 22:18:11,2021-06-29 22:18:14,2.396s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-06-29 22:18:14,2021-06-29 22:18:16,2.599s,PASSED
+,,,,,,,
+Test Cases/Daftar Akun Page/Email/Verify Email maximum character,Chrome 91.0.4472.124,,,2021-06-29 22:18:16,2021-06-29 22:18:50,34.081s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-06-29 22:18:17,2021-06-29 22:18:26,8.366s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,2021-06-29 22:18:26,2021-06-29 22:18:26,0.170s,PASSED
+"navigateToUrl(""https://dashboard.pawoon.com/login"")",Chrome 91.0.4472.124,,,2021-06-29 22:18:26,2021-06-29 22:18:33,7.474s,PASSED
+"click(findTestObject(""Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang""))",Chrome 91.0.4472.124,,,2021-06-29 22:18:33,2021-06-29 22:18:37,3.201s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_Namalengkap""), ""Renaldo Pontoh"")",Chrome 91.0.4472.124,,,2021-06-29 22:18:37,2021-06-29 22:18:38,1.303s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_email""), ""bangdado@gmail.commmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm"")",Chrome 91.0.4472.124,,,2021-06-29 22:18:38,2021-06-29 22:18:40,1.770s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_phone_number""), ""081211336018"")",Chrome 91.0.4472.124,,,2021-06-29 22:18:40,2021-06-29 22:18:40,0.626s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_password""), ""123456"")",Chrome 91.0.4472.124,,,2021-06-29 22:18:40,2021-06-29 22:18:41,0.725s,PASSED
+"verifyElementNotChecked(findTestObject(""Pawoon/Page_Pawoon POS/checkbox_agreement""), 2)",Chrome 91.0.4472.124,,,2021-06-29 22:18:41,2021-06-29 22:18:42,0.673s,PASSED
+"check(findTestObject(""Pawoon/Page_Pawoon POS/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-06-29 22:18:42,2021-06-29 22:18:44,2.369s,PASSED
+"click(findTestObject(""Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1""))",Chrome 91.0.4472.124,,,2021-06-29 22:18:44,2021-06-29 22:18:45,0.953s,PASSED
+"verifyElementPresent(findTestObject(""Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis""), 0)",Chrome 91.0.4472.124,,,2021-06-29 22:18:45,2021-06-29 22:18:47,1.788s,PASSED
+delay(2),Chrome 91.0.4472.124,,,2021-06-29 22:18:47,2021-06-29 22:18:49,2.005s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-06-29 22:18:49,2021-06-29 22:18:50,1.559s,PASSED
+,,,,,,,
+Test Cases/Daftar Akun Page/Email/Verify Email minimum character,Chrome 91.0.4472.124,,,2021-06-29 22:18:50,2021-06-29 22:19:15,24.703s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-06-29 22:18:51,2021-06-29 22:18:57,5.421s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,2021-06-29 22:18:57,2021-06-29 22:18:57,0.421s,PASSED
+"navigateToUrl(""https://dashboard.pawoon.com/login"")",Chrome 91.0.4472.124,,,2021-06-29 22:18:57,2021-06-29 22:19:03,5.878s,PASSED
+"click(findTestObject(""Pawoon/Page_Pawoon POS - My Pawoon v2 - Login/Daftar sekarang""))",Chrome 91.0.4472.124,,,2021-06-29 22:19:03,2021-06-29 22:19:05,2.232s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_Namalengkap""), ""Renaldo Pontoh"")",Chrome 91.0.4472.124,,,2021-06-29 22:19:05,2021-06-29 22:19:06,0.965s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_email""), ""b"")",Chrome 91.0.4472.124,,,2021-06-29 22:19:06,2021-06-29 22:19:07,0.620s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_phone_number""), ""081211336018"")",Chrome 91.0.4472.124,,,2021-06-29 22:19:07,2021-06-29 22:19:08,0.910s,PASSED
+"sendKeys(findTestObject(""Pawoon/Page_Pawoon POS/input_password""), ""123456"")",Chrome 91.0.4472.124,,,2021-06-29 22:19:08,2021-06-29 22:19:09,0.653s,PASSED
+"verifyElementNotChecked(findTestObject(""Pawoon/Page_Pawoon POS/checkbox_agreement""), 2)",Chrome 91.0.4472.124,,,2021-06-29 22:19:09,2021-06-29 22:19:09,0.550s,PASSED
+"check(findTestObject(""Pawoon/Page_Pawoon POS/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-06-29 22:19:09,2021-06-29 22:19:10,0.798s,PASSED
+"click(findTestObject(""Pawoon/Page_Pawoon POS/Page_Pawoon POS/button_Lanjutkan1""))",Chrome 91.0.4472.124,,,2021-06-29 22:19:10,2021-06-29 22:19:11,0.690s,PASSED
+"verifyElementPresent(findTestObject(""Pawoon/informasi bisnis page/Page_Pawoon POS/teks_Informasi Bisnis""), 0)",Chrome 91.0.4472.124,,,2021-06-29 22:19:11,2021-06-29 22:19:12,0.935s,PASSED
+delay(2),Chrome 91.0.4472.124,,,2021-06-29 22:19:12,2021-06-29 22:19:14,2.008s,PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-06-29 22:19:14,2021-06-29 22:19:15,1.574s,PASSED
